@@ -52,8 +52,6 @@
   justify-content: center;
 }
 
-
-
 .gisautext {
   width: 40%;
   height: 100%;
@@ -112,19 +110,11 @@
 */
 
 @media (max-width: 450px){
-  .hometext, .gisautext{
-    width: 0%;
-  }
   .homeBanner{
     font-size: 10px;
-    margin-left: -50px;
-    left: 50%;
   }
   .homeButton{
     left: 50%;
-  }
-  img.gisautext {
-    width: 250px;
   }
   #homeImage.homeImage {
     height: 100vh;
@@ -132,15 +122,14 @@
 } 
 @media (max-width: 650px){
   .hometext{
-    width: 700px;
+    width: 100vw;
   }
   .homeBanner {
-    width: 500px;
+    width: 100vw;
   }
   .homeButton{
     width: 200px;
     font-size: 950%;
-    margin-left: 48px;
   }
   .gisautext{
     width: 10%;
@@ -150,9 +139,6 @@
 @media (max-width: 735px){
   .homeImage{
     height: 80%;
-  }
-  .gisautext img{
-    width: 700px;
   }
   .homeButton {
     width: 15%;
